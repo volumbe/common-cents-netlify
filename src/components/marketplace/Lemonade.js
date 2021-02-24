@@ -21,7 +21,7 @@ class Lemonade extends React.Component{
                         </figure>
                     </div>
                     <footer class="card-footer">
-                        <a href="templates/instaAlbum.html" class="card-footer-item">Download</a>
+                        <a href="https://www.lemonade.com/" class="card-footer-item">Download</a>
                         <a href="https://www.lemonade.com/" class="card-footer-item">Learn More</a>
                     </footer>
                 </div>
