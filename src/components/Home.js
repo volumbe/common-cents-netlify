@@ -45,7 +45,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div> 
-                {/* <div class="hero-body is-primary">
+                 <div class="hero-body is-primary">
                     <div class="container has-text-centered">
                         <div class="columns is-desktop is-vcentered">
                             <div class="column is-half ml-4">
@@ -59,7 +59,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div> 
 
             </section>
             

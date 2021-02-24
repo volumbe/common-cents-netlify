@@ -12,6 +12,7 @@ import JHU from "./chapters/JHU";
 import Yale from "./chapters/Yale";
 import NYU from "./chapters/NYU";
 import Princeton from "./chapters/Princeton";
+import Binghamton from "./chapters/Binghamton";
 
 function App() {
   return (
@@ -25,11 +26,11 @@ function App() {
           <Route path="/marketplace" exact component={() => <Marketplace />} />
           <Route path="/penn" exact component={() => <Penn />} />
           <Route path="/cornell" exact component={() => <Cornell />} />
-          <Route path="/princeton" exact component={() => <Princeton />} />
           <Route path="/jhu" exact component={() => <JHU />} />
           <Route path="/nyu" exact component={() => <NYU />} />
           <Route path="/yale" exact component={() => <Yale />} />
-
+          {/* <Route path="/princeton" exact component={() => <Princeton />} />
+          <Route path="/binghamton" exact component={() => <Binghamton />} /> */}
         </Switch>
         <Footer />
       </Router>
