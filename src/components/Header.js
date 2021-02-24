@@ -50,24 +50,26 @@ class Header extends React.Component{
                         <Link class="navbar-item" to = "/penn">
                             University of Pennsylvania
                         </Link>
+                        <Link class="navbar-item" to = "/cornell">
+                            Cornell University
+                        </Link>    
+                        <Link class="navbar-item" to = "/jhu">
+                            Johns Hopkins University
+                        </Link>
+                        <Link class="navbar-item" to = "/yale">
+                            Yale University
+                        </Link>
                         <Link class="navbar-item" to = "/nyu">
                             New York University
                         </Link>
-                        <Link class="navbar-item" to = "/hu">
-                            Johns Hopkins University
-                        </Link>
-                        <a class="navbar-item">
+                        <Link class="navbar-item" to = "/">
                             Binghamton University
-                        </a>
-                        <a class="navbar-item">
-                            Cornell University
-                        </a>
-                        <a class="navbar-item">
+                        </Link>
+      
+                        <Link class="navbar-item" to = "/">
                             Princeton University
-                        </a>  
-                        <a class="navbar-item">
-                            Yale University
-                        </a>
+                        </Link>  
+                       
                         <hr class="navbar-divider"/>
                         <a class="navbar-item">
                             Join
