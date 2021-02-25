@@ -12,11 +12,11 @@ class Header extends React.Component{
                 <a class="navbar-item" href="../">
                   <img src={logo} alt="Logo"/>
                 </a>
-                <span class="navbar-burger burger" data-target="navbarMenu">
+                <a role = "button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
                   <span></span>
                   <span></span>
                   <span></span>
-                </span>
+                </a>
               </div>
 
               <div id="navbarMenu" class="navbar-menu">
@@ -69,11 +69,11 @@ class Header extends React.Component{
                         <Link class="navbar-item" to = "/">
                             Princeton University
                         </Link>  
-                       
+                        {/*                        
                         <hr class="navbar-divider"/>
                         <a class="navbar-item">
                             Join
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                   {/*
