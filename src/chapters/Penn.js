@@ -183,7 +183,7 @@ class Penn extends React.Component {
                             <div class="card-content">
                                 <div class="media">
                                 <div class="media-content">
-                                    <p class="title is-4 has-text-centered">Winni Zhang</p>
+                                    <p class="title is-4 has-text-centered">Rikki Kong</p>
                                     <p class="subtitle is-6">Vice President<br />
                                     <i>Class of 2024</i></p>
                                 </div>  
