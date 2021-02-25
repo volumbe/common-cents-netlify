@@ -5,7 +5,7 @@ import Lemonade from "./marketplace/Lemonade";
 import useScript from './hooks/useScript';
 
 function Marketplace() {
-        useScript("hooks/NavbarScript.js");
+        useScript("NavbarScript.js");
 
         return(
             <section class="section">
