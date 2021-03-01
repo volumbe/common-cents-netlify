@@ -12,14 +12,14 @@ class Header extends React.Component{
                 <a class="navbar-item" href="../">
                   <img src={logo} alt="Logo"/>
                 </a>
-                <a role = "button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                <a role = "button" id = "nav-toggle" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-menu">
+                     <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
                 </a>
               </div>
 
-              <div id="navbarMenu" class="navbar-menu">
+              <div id="nav-menu" class="navbar-menu">
                 <div class="navbar-end">
                   {/* <div class=" navbar-item">
                     <div class="control has-icons-left">
