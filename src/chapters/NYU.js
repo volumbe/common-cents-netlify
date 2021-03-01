@@ -1,10 +1,6 @@
 import React from "react";
 import "bulma";
 import tree from "../images/sprouting-tree.png"
-import Kevin from "../images/headshots/nyu/Kevin_Li.jpg"
-import Tanav from "../images/headshots/nyu/Tanav_Suman.jpg"
-import Brett from "../images/headshots/nyu/Brett_Lin.JPG"
-import Iti from "../images/headshots/nyu/Itihaas_Kommanavancha.jpg"
 
 class NYU extends React.Component {
   render() {
@@ -43,106 +39,6 @@ class NYU extends React.Component {
                         </div>
                     </div>
                 </div> 
-            </section>
-
-            <section class="section">
-                <h1 class = "title has-text-centered">Team</h1>
-                <div class="container">
-                <div class = "columns">
-                    <div class = "column" data-aos="fade-down">
-                        <div class="card">
-                            <div>
-                            <figure class="image is-256x256" style = {{"width": "256px", "height": "256px", "margin-top" : "1em", "margin-left": "auto", "margin-right": "auto"}}>
-                                <img class = "is-rounded"src={Iti} alt="Placeholder image"/>
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4 has-text-centered">Itihaas Kommanavancha</p>
-                                    <p class="subtitle is-6">Co-President<br />
-                                    <i>Class of 2023</i></p>
-                                </div>
-                                </div>
-
-                                <div class="content">
-                                Studying Finance & Econometrics with a minor in math. Enjoys playing and watching basketball, trying out new foods with friends, and exploring NYC.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class = "column " data-aos="fade-down">
-                        <div class="card">
-                            <div>
-                            <figure class="image is-256x256" style = {{"width": "256px", "height": "auto", "margin-top" : "1em", "margin-left": "auto", "margin-right": "auto"}}>
-                                <img class = "is-rounded"src={Kevin} alt="Placeholder image"/>
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4 has-text-centered">Kevin Li</p>
-                                    <p class="subtitle is-6">Co-President<br />
-                                    <i>Class of 2023</i></p>
-                                </div>  
-                                </div>
-
-                                <div class="content">
-                                Studying Finance & Data Science. Enjoys traveling and playing basketball with friends.
-                                <br></br>
-                                <br></br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class = "column " data-aos="fade-down">
-                        <div class="card">
-                            <div>
-                            <figure class="image is-256x256" style = {{"width": "256px", "height": "256px", "margin-top" : "1em", "margin-left": "auto", "margin-right": "auto"}}>
-                                <img class = "is-rounded"src={Tanav} alt="Placeholder image"/>
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4 has-text-centered">Tanav Suman</p>
-                                    <p class="subtitle is-6">Co-Vice President<br />
-                                    <i>Class of 2023</i></p>
-                                </div>
-                                </div>
-
-                                <div class="content">
-                                Studying Finance & Global Business, Enjoys hiking, debating about music with his friends, and attending concerts.
-                                <br></br>
-                                <br></br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class = "column " data-aos="fade-down">
-                        <div class="card">
-                            <div>
-                            <figure class="image is-256x256" style = {{"width": "256px", "height": "auto", "margin-top" : "1em", "margin-left": "auto", "margin-right": "auto"}}>
-                                <img class = "is-rounded"src={Brett} alt="Placeholder image"/>
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4 has-text-centered">Brett Lin</p>
-                                    <p class="subtitle is-6">Co-Vice President<br />
-                                    <i>Class of 2023</i></p>
-                                </div>  
-                                </div>
-
-                                <div class="content">
-                                Studying Finance, Statistics, and Computer Science. Enjoys learning to cook, going on road trips, and playing tennis.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
             </section>
         </div>
     );

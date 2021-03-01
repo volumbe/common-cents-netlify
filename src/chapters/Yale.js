@@ -1,8 +1,6 @@
 import React from "react";
 import "bulma";
 import tree from "../images/sprouting-tree.png"
-import Kevin from "../images/headshots/yale/Kevin_Hu.jpg"
-import Jenny from "../images/headshots/yale/Jenny_Tan.jpg"
 
 class Yale extends React.Component {
   render() {
@@ -41,58 +39,6 @@ class Yale extends React.Component {
                         </div>
                     </div>
                 </div> 
-            </section>
-
-            <section class="section">
-                <h1 class = "title has-text-centered">Team</h1>
-                <div class="container">
-                <div class = "columns">
-                    <div class = "column " data-aos="fade-down">
-                        <div class="card">
-                            <div>
-                            <figure class="image is-256x256" style = {{"width": "256px", "height": "256px", "margin-top" : "1em", "margin-left": "auto", "margin-right": "auto"}}>
-                                <img class = "is-rounded"src={Kevin} alt="Placeholder image"/>
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4 has-text-centered">Kevin Hu</p>
-                                    <p class="subtitle is-6">Co-President<br />
-                                    <i>Class of 2022</i></p>
-                                </div>
-                                </div>
-
-                                <div class="content">
-                                Studying Applied Health.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class = "column " data-aos="fade-down">
-                        <div class="card">
-                            <div>
-                            <figure class="image is-256x256" style = {{"width": "256px", "height": "auto", "margin-top" : "1em", "margin-left": "auto", "margin-right": "auto"}}>
-                                <img class = "is-rounded"src={Jenny} alt="Placeholder image"/>
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4 has-text-centered">Jenny Tan</p>
-                                    <p class="subtitle is-6">Co-President<br />
-                                    <i>Class of 2023</i></p>
-                                </div>  
-                                </div>
-
-                                <div class="content">
-                                Studying Chemistry and Statistics. Runs a baking Instagram for clout.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
             </section>
         </div>
     );

@@ -42,7 +42,7 @@ class About extends React.Component {
             </section>
 
             <section class="section">
-                <h1 class = "title has-text-centered">Founding Board</h1>
+                <h1 class = "title has-text-centered">Leadership</h1>
                 <div class="container">
                         <Founders />
                 </div>
