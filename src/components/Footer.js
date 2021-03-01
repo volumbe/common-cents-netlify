@@ -7,7 +7,7 @@ class Footer extends React.Component{
                   <div class="content">
                       <div class="card column is-half is-offset-one-quarter">
                             <div class="card-content">
-                                <form name="contact" method="POST" data-netlify="true">
+                                <form name="contact" data-netlify="true">
                             <p class="title">
                             Want to become a member?
                             </p>
