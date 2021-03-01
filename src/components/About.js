@@ -26,7 +26,7 @@ class About extends React.Component {
                             </h2>
                         </div>
                         <div data-aos="fade-down" class="column
-                        is-10-mobile is-offset-1-mobile
+                        is-10-mobile
                         is-10-tablet is-offset-1-tablet
                         is-4-desktop is-offset-1-desktop
                         is-4-widescreen is-offset-1-widescreen

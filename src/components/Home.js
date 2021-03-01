@@ -33,7 +33,7 @@ class Home extends React.Component {
                                 </div>
                             </div>
                             <div data-aos="fade-right" class="column
-                            is-10-mobile is-offset-1-mobile
+                            is-10-mobile
                             is-10-tablet is-offset-1-tablet
                             is-4-desktop is-offset-1-desktop
                             is-4-widescreen is-offset-1-widescreen
@@ -67,13 +67,14 @@ class Home extends React.Component {
                 <div class="hero-body">
                     <div class="container">
                         <h1 class = "titled is-1 title has-text-centered">What We Do</h1>
-                        <div class="columns  is-vcentered">
+                        <h2 class = "subtitled is-3 subtitle has-text-centered py-2">We are redefining personal finance education through <span class = "has-text-info" id="typewriter"></span></h2>
+                        <div class="columns is-vcentered">
                             <div data-aos="fade-left" class="column
                             is-10-mobile is-offset-1-mobile
                             is-10-tablet is-offset-1-tablet
                             is-4-desktop is-offset-1-desktop
                             is-4-widescreen is-offset-1-widescreen
-                            is-4-fullhd is-offset-1-fullhd">
+                            is-4-fullhd is-offset-1-fullhd py-4">
                                 <figure class="image">
                                 <img src={chaptersMap}/>
                                 </figure>
@@ -83,7 +84,7 @@ class Home extends React.Component {
                             is-10-tablet is-offset-1-tablet
                             is-5-desktop is-offset-1-desktop
                             is-5-widescreen is-offset-1-widescreen
-                            is-5-fullhd is-offset-1-fullhd">
+                            is-5-fullhd is-offset-1-fullhd py-4">
                                 <h1 class="subtitled subtitle is-3 mb-6">
                                 Campus Chapters
                                 </h1>
@@ -101,8 +102,8 @@ class Home extends React.Component {
                     is-10-tablet is-offset-1-tablet
                     is-5-desktop is-offset-1-desktop
                     is-5-widescreen is-offset-1-widescreen
-                    is-5-fullhd is-offset-1-fullhd py-2">
-                       <h1 class="subtitled subtitle is-3 mb-6">
+                    is-5-fullhd is-offset-1-fullhd py-4">
+                       <h1 class="subtitled subtitle is-3 mb-6 ">
                                 Product Suggestions
                                 </h1>
                                 <h2 class="subtitled subtitle">
@@ -114,7 +115,7 @@ class Home extends React.Component {
                     is-10-tablet is-offset-1-tablet
                     is-4-desktop is-offset-1-desktop
                     is-4-widescreen is-offset-1-widescreen
-                    is-4-fullhd is-offset-1-fullhd">
+                    is-4-fullhd is-offset-1-fullhd py-4">
                         <figure class="image">
                         <img src={marketplacePic}/>
                         </figure>
