@@ -62,10 +62,20 @@ function Marketplace() {
                         <div id="product-details">
                             <h3 class="is-size-5 title">Product Details</h3>
                             <div class = "columns">
-                                <Public />
-                                <Lemonade />
-                                <Policygenius />
-                                <Fidelity />
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Public />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Lemonade />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Policygenius />
+                                </div>
+                            </div>
+                            <div class = "columns">
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Fidelity />
+                                </div>
                             </div>
                         </div>
                         <div id="delivery-information" class="is-hidden">

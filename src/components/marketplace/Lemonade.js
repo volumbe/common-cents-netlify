@@ -4,7 +4,6 @@ import logo from "../../images/logos/lemonade_logo.png"
 class Lemonade extends React.Component{
     render(){
         return(
-            <div class = "column is-one-fourth" data-aos="fade-down">
                 <div class="card">
                     <header class="card-header">
                         <p class="card-header-title">
@@ -25,7 +24,6 @@ class Lemonade extends React.Component{
                         <a href="https://www.lemonade.com/" class="card-footer-item">Learn More</a>
                     </footer>
                 </div>
-            </div>
           );
     }
 }

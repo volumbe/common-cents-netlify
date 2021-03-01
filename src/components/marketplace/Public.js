@@ -4,7 +4,6 @@ import logo from "../../images/logos/public_logo.png"
 class Public extends React.Component{
     render(){
         return(
-            <div class = "column is-one-fourth" data-aos="fade-down">
                 <div class="card">
                     <header class="card-header">
                         <p class="card-header-title">
@@ -26,7 +25,6 @@ class Public extends React.Component{
                         More</a>
                     </footer>
                 </div>
-            </div>
           );
     }
 }

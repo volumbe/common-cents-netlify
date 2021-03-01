@@ -48,6 +48,29 @@
 
   </head>
   <body>
+    <form name="member" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="email" name = "email" />
+      <select name = "class">
+        <option disabled selected>Graduation Year</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        </select>
+        <select name = "chapter">
+          <option disabled selected>School</option>
+          <option>Binghamton</option>
+          <option>Cornell</option>
+          <option>Johns Hopkins</option>
+          <option>New York University</option>
+          <option>Princeton</option>
+          <option>UPenn</option>
+          <option>Yale</option>
+          </select>
+      <textarea name="message"></textarea>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

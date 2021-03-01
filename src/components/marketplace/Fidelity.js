@@ -4,7 +4,6 @@ import logo from "../../images/logos/fidelity_logo.png"
 class Fidelity extends React.Component{
     render(){
         return(
-            <div class = "column is-one-fourth" data-aos="fade-down">
                 <div class="card">
                     <header class="card-header">
                         <p class="card-header-title">
@@ -24,7 +23,6 @@ class Fidelity extends React.Component{
                         <a href="https://www.fidelity.com" class="card-footer-item">Learn More</a>
                     </footer>
                 </div>
-            </div>
           );
     }
 }
