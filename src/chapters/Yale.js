@@ -21,7 +21,7 @@ class Yale extends React.Component {
                                 <h1 class="title titled is-1 mb-6">
                                 Common Cents</h1>
                                 <h2 class=" subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif">
-                                    Johns Hopkins University
+                                    Yale University
                                     </h2>
                                 <div class="buttons">
                                 {/* <button class="button is-black">Download</button>

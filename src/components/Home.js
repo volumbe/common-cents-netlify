@@ -157,7 +157,7 @@ class Home extends React.Component {
             <hr></hr>
 
             <section class="hero is-white has-text-centered">
-                <h1 class = "title is-1">Our Impact</h1>
+                <h1 class = "title is-1 has-text-centered">Our Impact</h1>
                 <div class="hero-body">
                 <div class="container">
                     <BoxKPI />
