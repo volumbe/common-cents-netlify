@@ -7,7 +7,7 @@ class Footer extends React.Component{
                   <div class="content">
                       <div class="card column is-half is-offset-one-quarter">
                             <div class="card-content">
-                                <form name="contact" data-netlify="true">
+                                <form name="member" netlify>
                             <p class="title">
                             Want to become a member?
                             </p>
@@ -33,7 +33,7 @@ class Footer extends React.Component{
                                     </p>
                                 </div>
                             </div>
-                            <div class = "pt-4">
+                            <div class = "py-4">
                                 <div class="field">
                                     <p class="control is-expanded has-icons-left has-icons-right">
                                         <input class="input" type="email" name = "email" placeholder="Email"/>
@@ -43,7 +43,6 @@ class Footer extends React.Component{
                                     </p>
                                 </div>
                             </div>
-                            <hr></hr>
                             <div class="field-body">
                                 <div class = "field">
                                     <div class="control is-expanded has-icons-left">
@@ -81,8 +80,12 @@ class Footer extends React.Component{
                                     </div>
                                 </div>
                             </div>
+                            <hr></hr>
+
                             <div class = "field">
-                                <button class="control is-expanded" type="submit">Join</button>
+                            <div class = "control">
+                                <button class="button is-link">Join</button>
+                            </div>
                             </div>
                             </form>
                             </div>
