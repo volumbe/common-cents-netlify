@@ -1,7 +1,7 @@
 import React from "react";
 import "bulma";
 import tree from "../images/sprouting-tree.png"
-
+    
 class Yale extends React.Component {
   render() {
     return (

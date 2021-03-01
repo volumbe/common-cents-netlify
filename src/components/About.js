@@ -2,7 +2,7 @@ import React from "react";
 import "bulma";
 import tree from "../images/sprouting-tree.png"
 import Founders from "./Founders.js"
-import Advisory from "./Advisory.js"
+import Advisors from "./Advisors.js"
 
 class About extends React.Component {
   render() {
@@ -49,9 +49,9 @@ class About extends React.Component {
             </section>
 
             <section class="section">
-                <h1 class = "title has-text-centered">Advisory Board</h1>
+                <h1 class = "title has-text-centered">Advisors</h1>
                 <div class="container">
-                        <Advisory />
+                        <Advisors />
                 </div>
             </section>
 

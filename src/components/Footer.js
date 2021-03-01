@@ -7,6 +7,7 @@ class Footer extends React.Component{
                   <div class="content">
                       <div class="card column is-half is-offset-one-quarter">
                             <div class="card-content">
+                                <form name="contact" method="POST" data-netlify="true">
                             <p class="title">
                             Want to become a member?
                             </p>
@@ -16,7 +17,7 @@ class Footer extends React.Component{
                             <div class="field-body">
                                 <div class="field">
                                     <p class="control is-expanded has-icons-left">
-                                        <input class="input" type="text" placeholder="First Name"/>
+                                        <input class="input" type="text" name = "first_name" placeholder="First Name"/>
                                         <span class="icon is-small is-left">
                                             <i class="fas fa-user"></i>
                                         </span>
@@ -25,7 +26,7 @@ class Footer extends React.Component{
                                 
                                 <div class="field">
                                     <p class="control is-expanded has-icons-left has-icons-right">
-                                        <input class="input" type="text" placeholder="Last Name" />
+                                        <input class="input" type="text" name = "last_name" placeholder="Last Name" />
                                         <span class="icon is-small is-left">
                                             <i class="fas fa-user"></i>
                                         </span>
@@ -35,7 +36,7 @@ class Footer extends React.Component{
                             <div class = "pt-4">
                                 <div class="field">
                                     <p class="control is-expanded has-icons-left has-icons-right">
-                                        <input class="input" type="text" placeholder="Email"/>
+                                        <input class="input" type="email" name = "email" placeholder="Email"/>
                                         <span class="icon is-small is-left">
                                             <i class="fas fa-envelope"></i>
                                         </span>
@@ -47,7 +48,7 @@ class Footer extends React.Component{
                                 <div class = "field">
                                     <div class="control is-expanded has-icons-left">
                                         <div class="select is-fullwidth">
-                                            <select>
+                                            <select name = "class">
                                             <option disabled selected>Graduation Year</option>
                                             <option>2024</option>
                                             <option>2023</option>
@@ -63,7 +64,7 @@ class Footer extends React.Component{
                                 <div class = "field">
                                     <div class="control is-expanded has-icons-left is-fullwidth">
                                         <div class="select is-fullwidth">
-                                            <select>
+                                            <select name = "chapter">
                                             <option disabled selected>School</option>
                                             <option>Binghamton</option>
                                             <option>Cornell</option>
@@ -80,15 +81,10 @@ class Footer extends React.Component{
                                     </div>
                                 </div>
                             </div>
-
+                            <div class = "field">
+                                <button class="control is-expanded" type="submit">Join</button>
                             </div>
-                            <footer class="card-footer">
-                            <p class="card-footer-item register">
-                            <span>
-                            Register
-                            </span>
-                            </p>
-                            </footer>
+                            </form>
                             </div>
                         </div>
                         <div class="container has-text-centered" style = {{"margin-bottom": "-4em"}}>
@@ -101,7 +97,11 @@ class Footer extends React.Component{
                             <span class="icon is-large">
                                 <i class="fab fa-linkedin fa-2x"></i>
                             </span>
+                            <div>
+                            <p>Looking for <b>Penny Harvest</b> (Common Cents New York)? Learn more about it <a href = "https://web.archive.org/web/20150404013854/http://pennyharvest.org/contact-us/staff/">here</a>.</p>
+                            </div>
                         </div>
+                    </div>
             </footer>
         );
     }

@@ -1,2 +1,25 @@
-@charset "utf-8";
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+
+// 2. Set your own initial variables
+// Update blue
+$blue: #72d0eb;
+// Add pink and its invert
+$pink: #ffb3b3;
+$pink-invert: #fff;
+// Add a serif family
+$family-serif: "Maven Pro", "Open Sans", sans-serif;
+
+// 3. Set the derived variables
+@import '../node_modules/bulma/sass/utilities/derived-variables.sass';
+
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+// Use the existing orange as the danger color
+$danger: $orange;
+// Use the new serif family
+$family-primary: $family-serif;
+
+// 6. Import the rest of Bulma
 @import "../node_modules/bulma/bulma.sass";

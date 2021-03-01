@@ -84,7 +84,7 @@ class Home extends React.Component {
                             is-5-desktop is-offset-1-desktop
                             is-5-widescreen is-offset-1-widescreen
                             is-5-fullhd is-offset-1-fullhd">
-                                <h1 class="titled title is-1 mb-6">
+                                <h1 class="subtitled subtitle is-3 mb-6">
                                 Campus Chapters
                                 </h1>
                                 <h2 class="subtitled subtitle">
@@ -101,8 +101,8 @@ class Home extends React.Component {
                     is-10-tablet is-offset-1-tablet
                     is-5-desktop is-offset-1-desktop
                     is-5-widescreen is-offset-1-widescreen
-                    is-5-fullhd is-offset-1-fullhd">
-                       <h1 class="titled title is-1 mb-6">
+                    is-5-fullhd is-offset-1-fullhd py-2">
+                       <h1 class="subtitled subtitle is-3 mb-6">
                                 Product Suggestions
                                 </h1>
                                 <h2 class="subtitled subtitle">
@@ -127,7 +127,7 @@ class Home extends React.Component {
                             is-10-tablet is-offset-1-tablet
                             is-4-desktop is-offset-1-desktop
                             is-4-widescreen is-offset-1-widescreen
-                            is-4-fullhd is-offset-1-fullhd">
+                            is-4-fullhd is-offset-1-fullhd py-2">
                                 <div class = "card">
                                     <div class = "card-content">
                                 <figure class="image is-square">
@@ -141,8 +141,8 @@ class Home extends React.Component {
                             is-10-tablet is-offset-1-tablet
                             is-5-desktop is-offset-1-desktop
                             is-5-widescreen is-offset-1-widescreen
-                            is-5-fullhd is-offset-1-fullhd">
-                                <h1 class="titled title is-1 mb-6">
+                            is-5-fullhd is-offset-1-fullhd py-2">
+                                <h1 class="subtitled subtitle is-3 mb-6">
                                 User-Centric Resources
                                 </h1>
                                 <h2 class="subtitled subtitle">

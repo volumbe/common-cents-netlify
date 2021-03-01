@@ -3,7 +3,7 @@ import Swati from "../images/headshots/upenn/Swati_Patel.jpg"
 import Imad from "../images/headshots/upenn/Professor Imad Benjelloun.jpg"
 import Salma from "../images/headshots/upenn/Dr. Salma Jeghalef.png"
 
-class Advisory extends React.Component{
+class Advisors extends React.Component{
     render(){
         return(
             <div class = "columns">
@@ -71,4 +71,4 @@ class Advisory extends React.Component{
           );
     }
 }
-export default Advisory;
+export default Advisors;

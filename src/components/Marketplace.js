@@ -1,6 +1,8 @@
 import React from "react";
 import heroPic from "../images/Page-Graphic-1.png"
 import Public from "./marketplace/Public";
+import Policygenius from "./marketplace/Policygenius";
+import Fidelity from "./marketplace/Fidelity";
 import Lemonade from "./marketplace/Lemonade";
 import useScript from './hooks/useScript';
 
@@ -62,6 +64,8 @@ function Marketplace() {
                             <div class = "columns">
                                 <Public />
                                 <Lemonade />
+                                <Policygenius />
+                                <Fidelity />
                             </div>
                         </div>
                         <div id="delivery-information" class="is-hidden">
@@ -70,12 +74,14 @@ function Marketplace() {
                             <h3 class="is-size-5 title">Investing</h3>
                             <div class = "columns">
                                 <Public />
+                                <Fidelity />
                             </div>
                         </div>
                         <div id="cornell-events" class="is-hidden">
                             <h3 class="is-size-5 title">Insurance</h3>
                             <div class = "columns">
                                 <Lemonade />
+                                <Policygenius />
                             </div>
                         </div>
                     </div>
