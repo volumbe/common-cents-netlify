@@ -4,6 +4,11 @@ import Public from "./marketplace/Public";
 import Policygenius from "./marketplace/Policygenius";
 import Fidelity from "./marketplace/Fidelity";
 import Lemonade from "./marketplace/Lemonade";
+import Webull from "./marketplace/Lemonade";
+import Acorns from "./marketplace/Lemonade";
+import Discover from "./marketplace/Lemonade";
+import Vanguard from "./marketplace/Lemonade";
+import Coinbase from "./marketplace/Coinbase";
 import useScript from './hooks/useScript';
 
 function Marketplace() {
