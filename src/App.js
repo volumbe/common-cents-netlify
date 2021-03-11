@@ -1,4 +1,6 @@
 import React from "react";
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -13,6 +15,19 @@ import Yale from "./chapters/Yale";
 import NYU from "./chapters/NYU";
 import Princeton from "./chapters/Princeton";
 import Binghamton from "./chapters/Binghamton";
+
+
+const trackingId = "UA-178272831-1"; // Replace with your Google Analytics tracking ID
+const history = createBrowserHistory();
+
+ReactGA.initialize(trackingId);
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
 
 function App() {
   return (
