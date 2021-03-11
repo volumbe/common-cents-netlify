@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "../../images/logos/fidelity_logo.png"
+import logo from "../../images/logos/discover_logo.png"
 
-class Fidelity extends React.Component{
+class Discover extends React.Component{
     render(){
         return(
                 <div class="card">
                     <header class="card-header">
                         <p class="card-header-title">
-                        <span>Fidelity</span>
+                        <span>DiscoverIt Student Cashback</span>
                         <div class="tags is-pulled-right pl-1"> 
-                            <span class="tag is-default">Investing</span>
+                            <span class="tag is-default">Credit Card</span>
                             {/* <span class="tag is-default">App</span> */}
                         </div>
                         </p>
@@ -20,10 +20,10 @@ class Fidelity extends React.Component{
                         </figure>
                     </div>
                     <footer class="card-footer">
-                        <a href="https://www.fidelity.com" class="card-footer-item">Learn More</a>
+                        <a href="https://www.https://www.discover.com/credit-cards/student/it-card.html" class="card-footer-item">Learn More</a>
                     </footer>
                 </div>
           );
     }
 }
-export default Fidelity;
+export default Discover;
