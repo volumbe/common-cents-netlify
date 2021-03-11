@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "../../images/logos/fidelity_logo.png"
+import logo from "../../images/logos/coinbase_logo.png"
 
-class Fidelity extends React.Component{
+class Coinbase extends React.Component{
     render(){
         return(
                 <div class="card">
                     <header class="card-header">
                         <p class="card-header-title">
-                        <span>Fidelity</span>
+                        <span>Coinbase</span>
                         <div class="tags is-pulled-right pl-1"> 
-                            <span class="tag is-default">Retirement</span>
+                            <span class="tag is-default">Bitcoin</span>
                             {/* <span class="tag is-default">App</span> */}
                         </div>
                         </p>
@@ -20,10 +20,10 @@ class Fidelity extends React.Component{
                         </figure>
                     </div>
                     <footer class="card-footer">
-                        <a href="https://www.fidelity.com" class="card-footer-item">Learn More</a>
+                        <a href="https://www.coinbase.com" class="card-footer-item">Learn More</a>
                     </footer>
                 </div>
           );
     }
 }
-export default Fidelity;
+export default Coinbase;
