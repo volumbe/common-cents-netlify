@@ -9,7 +9,7 @@ class Fidelity extends React.Component{
                         <p class="card-header-title">
                         <span>Fidelity</span>
                         <div class="tags is-pulled-right pl-1"> 
-                            <span class="tag is-default">Investing</span>
+                            <span class="tag is-default">Retirement</span>
                             {/* <span class="tag is-default">App</span> */}
                         </div>
                         </p>
