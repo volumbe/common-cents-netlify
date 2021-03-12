@@ -123,16 +123,13 @@ function Marketplace() {
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Acorns />
                                 </div>
-                                <div class = "column is-one-third" data-aos="fade-down">
-                                    <Vanguard />
-                                </div>
-                                <div class = "column is-one-third" data-aos="fade-down">
-                                    <Webull />
-                                </div>
                             </div>
                             <div class = "columns">
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Webull />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Vanguard />
                                 </div>
                             </div>
                         </div>
