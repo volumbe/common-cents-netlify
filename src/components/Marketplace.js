@@ -79,6 +79,7 @@ function Marketplace() {
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Policygenius />
                                 </div>
+                            </div>
                             <div class = "columns">
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Webull />
@@ -90,7 +91,8 @@ function Marketplace() {
                                     <Discoverit />
                                 </div>
                             </div>
-                            <div class = "column is-one-third" data-aos="fade-down">
+                            <div class = "columns">
+                            <   div class = "column is-one-third" data-aos="fade-down">
                                     <Fidelity />
                                 </div>
                                 <div class = "column is-one-third" data-aos="fade-down">
