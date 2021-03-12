@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from 'react';
 import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -30,6 +31,19 @@ history.listen(location => {
 
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize('UA-178272831-1');
+    // To Report Page View 
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    // Initialize google analytics page view tracking
+    
+    const history = createBrowserHistory();
+    history.listen(location => {
+      ReactGA.set({ page: location.pathname }); // Update the user's current page
+      ReactGA.pageview(location.pathname); // Record a pageview for the given page
+    });
+  }, [])
+  
   return (
     <div className="App">
       <Router>
