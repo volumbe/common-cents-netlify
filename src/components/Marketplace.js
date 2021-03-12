@@ -88,15 +88,23 @@ function Marketplace() {
                         <div id="upenn-events" class="is-hidden">
                             <h3 class="is-size-5 title">Investing</h3>
                             <div class = "columns">
-                                <Public />
-                                <Fidelity />
+                            <div class = "column is-one-third" data-aos="fade-down">
+                                    <Public />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Fidelity />
+                                </div>
                             </div>
                         </div>
                         <div id="cornell-events" class="is-hidden">
                             <h3 class="is-size-5 title">Insurance</h3>
                             <div class = "columns">
-                                <Lemonade />
-                                <Policygenius />
+                            <div class = "column is-one-third" data-aos="fade-down">
+                                    <Lemonade />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Policygenius />
+                                </div>
                             </div>
                         </div>
                     </div>
