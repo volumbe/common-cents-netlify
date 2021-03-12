@@ -61,6 +61,12 @@ function Marketplace() {
                         <li data-target="insurance">
                             <a>Insurance</a>
                         </li>
+                        <li data-target="retirement">
+                            <a>Insurance</a>
+                        </li>
+                        <li data-target="bitcoin">
+                            <a>Insurance</a>
+                        </li>
                         <li data-target="cards">
                             <a>Cards</a>
                         </li>
@@ -117,6 +123,12 @@ function Marketplace() {
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Acorns />
                                 </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Vanguard />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Webull />
+                                </div>
                             </div>
                             <div class = "columns">
                                 <div class = "column is-one-third" data-aos="fade-down">
@@ -133,8 +145,24 @@ function Marketplace() {
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Policygenius />
                                 </div>
+                            </div>
+                        </div>
+                        <div id="retirement" class="is-hidden">
+                            <h3 class="is-size-5 title">Insurance</h3>
+                            <div class = "columns">
+                            <div class = "column is-one-third" data-aos="fade-down">
+                                    <Fidelity />
+                                </div>
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Vanguard />
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bitcoin" class="is-hidden">
+                            <h3 class="is-size-5 title">Insurance</h3>
+                            <div class = "columns">
+                            <div class = "column is-one-third" data-aos="fade-down">
+                                    <Coinbase />
                                 </div>
                             </div>
                         </div>
