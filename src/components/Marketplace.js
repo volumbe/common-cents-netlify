@@ -62,10 +62,10 @@ function Marketplace() {
                             <a>Insurance</a>
                         </li>
                         <li data-target="retirement">
-                            <a>Insurance</a>
+                            <a>Retirement</a>
                         </li>
                         <li data-target="bitcoin">
-                            <a>Insurance</a>
+                            <a>Bitcoin</a>
                         </li>
                         <li data-target="cards">
                             <a>Cards</a>
