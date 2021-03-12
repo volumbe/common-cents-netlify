@@ -4,10 +4,10 @@ import Public from "./marketplace/Public";
 import Policygenius from "./marketplace/Policygenius";
 import Fidelity from "./marketplace/Fidelity";
 import Lemonade from "./marketplace/Lemonade";
-import Webull from "./marketplace/Lemonade";
-import Acorns from "./marketplace/Lemonade";
-import Discover from "./marketplace/Lemonade";
-import Vanguard from "./marketplace/Lemonade";
+import Webull from "./marketplace/Webull";
+import Acorns from "./marketplace/Acorns";
+import Discoverit from "./marketplace/Discoverit";
+import Vanguard from "./marketplace/Vanguard";
 import Coinbase from "./marketplace/Coinbase";
 import useScript from './hooks/useScript';
 
@@ -55,11 +55,14 @@ function Marketplace() {
                         <li class="is-active" data-target="product-details">
                             <a>All</a> 
                         </li>
-                        <li data-target="upenn-events">
+                        <li data-target="investing">
                             <a>Investing</a>
                         </li>
-                        <li data-target="cornell-events">
+                        <li data-target="insurance">
                             <a>Insurance</a>
+                        </li>
+                        <li data-target="cards">
+                            <a>Cards</a>
                         </li>
                         </ul>
                     </div>
@@ -76,27 +79,50 @@ function Marketplace() {
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Policygenius />
                                 </div>
-                            </div>
                             <div class = "columns">
                                 <div class = "column is-one-third" data-aos="fade-down">
+                                    <Webull />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Vanguard />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Discoverit />
+                                </div>
+                            </div>
+                            <div class = "column is-one-third" data-aos="fade-down">
                                     <Fidelity />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Coinbase />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Acorns />
                                 </div>
                             </div>
                         </div>
                         <div id="delivery-information" class="is-hidden">
                         </div>
-                        <div id="upenn-events" class="is-hidden">
+                        <div id="investing" class="is-hidden">
                             <h3 class="is-size-5 title">Investing</h3>
                             <div class = "columns">
-                            <div class = "column is-one-third" data-aos="fade-down">
+                                <div class = "column is-one-third" data-aos="fade-down">
                                     <Public />
                                 </div>
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Fidelity />
                                 </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Acorns />
+                                </div>
+                            </div>
+                            <div class = "columns">
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Webull />
+                                </div>
                             </div>
                         </div>
-                        <div id="cornell-events" class="is-hidden">
+                        <div id="insurance" class="is-hidden">
                             <h3 class="is-size-5 title">Insurance</h3>
                             <div class = "columns">
                             <div class = "column is-one-third" data-aos="fade-down">
@@ -104,6 +130,17 @@ function Marketplace() {
                                 </div>
                                 <div class = "column is-one-third" data-aos="fade-down">
                                     <Policygenius />
+                                </div>
+                                <div class = "column is-one-third" data-aos="fade-down">
+                                    <Vanguard />
+                                </div>
+                            </div>
+                        </div>
+                        <div id="cards" class="is-hidden">
+                            <h3 class="is-size-5 title">Cards</h3>
+                            <div class = "columns">
+                            <div class = "column is-one-third" data-aos="fade-down">
+                                    <Discoverit />
                                 </div>
                             </div>
                         </div>
